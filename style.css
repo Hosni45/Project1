@@ -1,0 +1,91 @@
+
+body{
+    background: url('https://images.pexels.com/photos/326347/pexels-photo-326347.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1;')
+}
+
+.QUIZ {
+    width:50%;
+    
+    margin:  150px auto;
+    padding: 10px;
+    border: 2px solid #0e0c0c;
+    border-radius: 10px;
+    background-color:pink;
+    box-shadow: 10px 10px 5px 12px lightblue;
+    text-align: center;
+    top: 150px;
+}
+
+
+#T1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#q1 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+
+#next {
+    padding: 10px 20px;
+    font-size: 1em;
+    color:rgb(28, 27, 27);
+    background-color:white ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: skyblue;
+}
+
+#next:hover {
+    background-color:#a09999;
+}
+
+#buttons {
+    background-color: #b8d5e8; 
+    border: none; 
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+     
+#buttons:hover {
+    background-color: #657e8e; 
+    transform: scale(1.05); 
+}
+#buttons:active {
+    background-color: #1c598a; 
+    transform: scale(1); 
+}
+
+
+
+.StartAgain{
+    background-color: #030505; 
+    border: none; 
+    color: white; 
+    padding: 12px 24px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px; 
+    margin: 10px 2px; 
+    cursor: pointer; 
+    border-radius: 12px; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+
+
+}
