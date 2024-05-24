@@ -1,0 +1,61 @@
+
+
+.QUIZ {
+    width:70%;
+    margin-top: 400px;
+    margin-left: 300px;
+    /* margin:  0 auto; */
+    padding: 20px;
+    border: 2px solid #0e0c0c;
+    border-radius: 10px;
+    background-color:pink;
+    box-shadow: 10px 10px 5px 12px lightblue;
+    text-align: center;
+}
+
+.bcgvid{
+        object-fit: cover;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+}
+#T1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#q1 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#buttons {
+    margin-bottom: 40px;
+    display: inline;
+    font-size: medium;
+    
+    border-radius: 5px ;
+    cursor: pointer;
+    word-break: break-all;
+}
+
+#next {
+    padding: 10px 20px;
+    font-size: 1em;
+    color:white;
+    background-color: skyblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: skyblue;
+}
+
+#next:hover {
+    background-color:black;
+}
+

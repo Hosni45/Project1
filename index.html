@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RBK </title>
+    <link rel="stylesheet" href="./welcomeCss.css">
+</head>
+<body>
+    <div>
+        <audio src="./ressources/zelda.mp3"loop autoplay></audio>
+    </div>
+    <div>
+        <div class="video-background">
+            <video class="bcgvid" src="./ressources/Mario Pixel Room Live Wallpaper.mp4"autoplay muted loop></video>
+        </div>
+<div class="middle">
+        <div class="content">
+            <input class="sub" type="number" id="ageInput" placeholder="age">
+        </div>    
+    </div>
+
+    
+            <script>
+               function checkAge() {
+                    var age = document.getElementById("ageInput").value;
+                    if (age <= 13) {
+                        window.location.href = "under.html"
+                    }  if (age > 13) {
+                        window.location.href= "above.html"
+                    }
+                    if (age > 998) {
+                        window.location.href= "secret.html"
+                    }
+                        
+                    
+                }
+                document.getElementById("ageInput").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                checkAge();
+            }
+        });
+                
+            </script>
+</body>
+</html>
